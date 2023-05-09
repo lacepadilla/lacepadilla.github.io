@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Overall font*/
+/* link info */
+/* unvisited link */
+/* visited link */
+/* mouse over link */
+/* selected link */
+/*ul li span { 
+	float: left;
+	width: 60px;
+}*/
+/*footer start */
+body { font-family: 'Open Sans' !important; font-weight: 200;}
+
+.intro { font-size: 14pt; font-weight: 100; }
+
+.notification { font-size: 16px; font-weight: bold; }
+
+a:link { color: #D41B2C !important; text-decoration: none !important; }
+a:visited { color: #D41B2C !important; text-decoration: none !important; }
+a:hover { color: #D41B2C !important; text-decoration: none !important; }
+a:active { color: #D41B2C !important; text-decoration: none !important; }
+
+.pubTitle{
+  font-size: 16px!important;
+}
+
+h2{
+  font-size: 1.5em!important;
+}
+
+
+.eachpub {
+  border-top: 1px solid #dedede;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.bold { font-weight: bold; }
+
+.container { padding: 20px; }
+
+.headshot { width: 240px; height: 250px; }
+
+#profilePhoto {width: 180px !important;}
+
+#menu { margin-top: 4px; font-size: 10pt; cursor: pointer; cursor: hand; }
+
+.left_dummy { position: fixed !important; top: 30px; }
+
+.myname { font-family: 'Julius Sans One'; font-size: 30px; color: #3d3d3d; }
+
+.news_item{ font-family: 'Sintony',sans-serif; font-size: 30px; color: #3d3d3d; }
+
+#heading_space { margin-top: 50px; }
+
+#heading_space_half { margin-top: 25px; }
+
+.news_heading { margin-top: 20px; font-size: 15px; color: #3d3d3d; }
+
+ul { list-style-type: none; padding-left: 0px; }
+
+.news_item { font-size: 12px; font-weight: 100; margin-bottom: 12px; width: 90%; }
+
+.news_date { width: 60px; text-align: right; color: #4c4c4c; font-size: 10pt; }
+
+.news_loc { color: #4c4c4c; font-size: 10pt; }
+
+.conference { border-top: 1px solid #D41B2C; border-bottom: 1px solid #D41B2C; font-weight: bold; 
+}
+
+.title { font-size: 12pt; font-weight: 700; clear: left; }
+
+.authors { font-style: italic; color: #4c4c4c; font-size: 10pt; }
+
+.relevantLink { font-size: 11pt; font-weight: 100; }
+
+.eachpub { margin-bottom: 15px; }
+
+.stat { margin-left: 15px; font-size: 9pt; float: left; }
+
+.statimg { vertical-align: text-bottom; width: 20px; }
+
+.award { padding-top: 2px; width: 20px; }
+
+.footer { position: relative; clear: left; overflow: hidden; }
+.footer div { text-align: center; font-size: 12px; border-top: dashed 1px #C0C0C0; margin-top: 10px; padding-top: 10px; }
