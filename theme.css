@@ -66,6 +66,18 @@ color: black;}
 	
 	
 }
+
+.apply-btn {
+            display: inline-block;
+            background-color: #caf7e5;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
 .hundred{
 	width:100%;
 	position:fixed;
@@ -124,9 +136,17 @@ h2{
 }
 
 h4{
-  font-size: 1.2em!important;
+  font-size: 1.5em!important;
 }
 
+.thick-line {
+  display: block;
+  width: 100%;
+  height: 5px;  /* You can adjust the height to change the thickness */
+  background-color: #002251;  /* This sets the line color to black */
+  border: none;
+  margin: 10px 0px 10px 0px;  /* This adds some space above and below the line */
+}
 
 a.black, a.black:visited, a.black:active{ color: black; }
  a.black:hover { color: #0468f1; }
@@ -153,7 +173,10 @@ a.black, a.black:visited, a.black:active{ color: black; }
 
 .myname {font-family:  'Source Sans 3', sans-serif; color: #3d3d3d; font-size: 2em; font-weight: 200}
 
+ h1 { font-family:  'Source Sans 3', sans-serif;  }
  h2 { font-family:  'Source Sans 3', sans-serif; font-size: 2em; color: #3d3d3d; font-weight: 100; }
+ h3 { font-family:  'Source Sans 3', sans-serif;  }
+ h4 { font-family:  'Source Sans 3', sans-serif;  color: #0468f1; font-size: 2.4em;}
 
 .largemyname{ font-family:  'Playfair Display SC', serif; color: black; font-size: 2em; }
 
